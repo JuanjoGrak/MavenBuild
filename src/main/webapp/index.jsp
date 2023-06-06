@@ -47,6 +47,9 @@
                         <li>Adding bullet points</li>
                         <li>Adding to the list</li>
                         <li>Adding more text</li>
+                        <li>Made so many changes</li>
+                        <li>Adding more bullet point</li>
+                        <li>List getting long</li>
                     </ul>
                     <br>
                     <img src="./img_responsive.png" style="width:100%" alt="Responsive">                  
