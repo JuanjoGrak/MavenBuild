@@ -1,6 +1,6 @@
 node("JenkinsSlave"){
 	stage("Code Checkout"){
-		checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: 'GitHubCreds', url: 'https://github.com/JuanjoGrak/SonarQubeNodeJS.git']])
+		checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: 'GitHubCreds', url: 'https://github.com/JuanjoGrak/MavenBuild.git']])
 	}
 	stage("Build Automation"){
 		sh """
